@@ -135,7 +135,7 @@ button:active {
 
 /* Style the "active" element to highlight the current page */
 .topnav a.active {
-  background-color: #1B3C53;
+  background-color: #447D9B;
   color: white;
 }
 
@@ -148,7 +148,6 @@ button:active {
   margin-top: 21px;
   margin-right: 16px;
   font-size: 17px;
-  placeholder-color:#1B3C53;
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */

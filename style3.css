@@ -12,7 +12,8 @@ h1 {
    background-color: #e3b3fe;
    color:#1B3C53;
   font-size: 60px;
-  margin-top: 0px;
+  margin-top: 230px;
+   padding: 40px; /* ou padding-top / padding-bottom pour affiner */
 }
 
 h2 {
@@ -51,6 +52,7 @@ p {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.4);
 }
+
 /* Style the "active" element to highlight the current page */
 .topnav a.active {
   background-color: #447D9B;
@@ -84,46 +86,13 @@ p {
   }
 }
 
-form {
-   margin-top: 21px;
-  height: 320px;
-  width: 500px;              /* Change la largeur du formulaire */
-  padding: 20px;             /* Ajoute de l'espace intérieur */
-  background-color: #447D9B; /* Couleur de fond */
-  border-color: white;
-  border: 1px solid #ccc;    /* Bordure grise */
-  border-radius: 8px;        /* Coins arrondis */
-  font-size: 26px; /* Taille du texte général */
-
-  /* Centre le formulaire */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-  /* Pour le responsive */
-  max-width: 90%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-form input[type="text"],
-form input[type="email"],
-form input[type="password"],
-form textarea {
-  font-size: 16px;   /* Taille du texte dans les champs */
-  height: 40px;      /* Hauteur des champs */
-  padding: 8px 12px; /* Espace intérieur */
-  width: 100%;       /* Largeur (ajustable selon ton besoin) */
-  box-sizing: border-box; /* Pour que le padding ne déborde pas */
-}
-
 button{
 display: block;
   margin: 0 auto;
   font-family:FreeMono, monospace ;
   font-weight: bold ;
-  background-color: #e3b3fe;  /* Couleur de fond (vert ici) */
-  color:#1B3C53;               /* Couleur du texte */
+  background-color: #447D9B;  /* Couleur de fond (vert ici) */
+  color:white;               /* Couleur du texte */
   font-size: 16px;            /* Taille du texte */
   padding: 12px 20px;         /* Taille du bouton (vertical x horizontal) */
   border: none;               /* Enlève la bordure */
@@ -133,14 +102,8 @@ display: block;
 }
 
 button:hover {
- background-color:#1B3C53 ;
- color :white;
+ background-color:#447D9B ;
+ color : white;
  transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-}
-
-label {
-  color:#1B3C53;
-  font-family:FreeMono, monospace ;
-  font-weight : bold ;
 }
